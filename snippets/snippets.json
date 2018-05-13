@@ -6,7 +6,7 @@
 			"\t<js:SimpleCSSStyles />",
 			"</js:style>"
         ],
-        "description": "Creates style Tag with SimpleCSSStyles"
+        "description": "Creates style tag with SimpleCSSStyles."
     },
     "StyleAllCSS": {
         "prefix": "StyleAllCSS",
@@ -15,6 +15,52 @@
 			"\t<js:AllCSSStyles />",
 			"</js:style>"
         ],
-        "description": "Creates style Tag with AllCSSStyles"
+        "description": "Creates style tag with AllCSSStyles."
+    },
+    "ApplicationDataBindingBead": {
+        "prefix": "ApplicationDataBindingBead",
+        "body": [
+            "<js:beads>",
+            "\t<js:ApplicationDataBinding />",
+            "<js:beads>"
+        ],
+        "description": "Creates ApplicationDataBinding bead surrounded by beads tag."
+    },
+    "ContainerDataBindingBead": {
+        "prefix": "ContainerDataBindingBead",
+        "body": [
+            "<js:beads>",
+            "\t<js:ContainerDataBinding />",
+            "<js:beads>"
+        ],
+        "description": "Creates ContainerDataBinding bead surrounded by beads tag."
+    },
+    "ItemRendererDataBindingBead": {
+        "prefix": "ItemRendererDataBindingBead",
+        "body": [
+            "<js:beads>",
+            "\t<js:ItemRendererDataBinding />",
+            "<js:beads>"
+        ],
+        "description": "Creates ItemRendererDataBinding bead surrounded by beads tag."
+    },
+    "ViewDataBindingBead": {
+        "prefix": "ViewDataBindingBead",
+        "body": [
+            "<js:beads>",
+            "\t<js:ViewDataBinding />",
+            "<js:beads>"
+        ],
+        "description": "Creates ViewDataBinding bead surrounded by beads tag."
+    },
+    "GridMdl": {
+        "prefix": "GridMdl",
+        "body": [
+            "<mdl:Grid>",
+            "\t<mdl:GridCell>",
+            "\t</mdl:GridCell>",
+            "</mdl:Grid>"
+        ],
+        "description": "Creates MDL Grid with GridCell."
     }
 }
