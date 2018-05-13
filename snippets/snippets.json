@@ -53,6 +53,17 @@
         ],
         "description": "Creates ViewDataBinding bead surrounded by beads tag."
     },
+    "DataGridBasic": {
+        "prefix": "DataGridBasic",
+        "body": [
+            "<js:DataGrid>",
+            "\t<js:columns>",
+            "\t\t<js:DataGridColumn />",
+            "\t<js:columns>",
+            "</js:DataGrid>"
+        ],
+        "description": "Creates Basic DataGrid with one DataGridColumn."
+    },
     "GridMdl": {
         "prefix": "GridMdl",
         "body": [
