@@ -1,0 +1,20 @@
+{
+    "StyleSimpleCSS": {
+        "prefix": "StyleSimpleCSS",
+        "body": [
+            "<js:style>",
+			"\t<js:SimpleCSSStyles />",
+			"</js:style>"
+        ],
+        "description": "Creates style Tag with SimpleCSSStyles"
+    },
+    "StyleAllCSS": {
+        "prefix": "StyleAllCSS",
+        "body": [
+            "<js:style>",
+			"\t<js:AllCSSStyles />",
+			"</js:style>"
+        ],
+        "description": "Creates style Tag with AllCSSStyles"
+    }
+}
