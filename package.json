@@ -1,6 +1,6 @@
 {
-    "name": "royale-snippets-for-vscode",
-    "displayName": "Royale Snippets for VSCode",
+    "name": "royalesnippetsforvscode",
+    "displayName": "Apache Royale™ Snippets",
     "description": "This extension for Visual Studio Code adds snippets for Apache Royale for ActionScript and MXML.",
     "version": "0.0.1",
     "publisher": "piotrzarzycki21",
@@ -10,6 +10,12 @@
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "royale",
+        "mxml",
+        "actionscript",
+        "js"
+    ],
     "contributes": {
         "snippets": [
             {
@@ -17,5 +23,13 @@
                 "path": "./snippets/snippets.json"
             }
         ]
+    },
+    "homepage": "https://github.com/piotrzarzycki21/royalesnippetsforvscode/",
+    "bugs": {
+        "url": "https://github.com/piotrzarzycki21/royalesnippetsforvscode/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/piotrzarzycki21/royalesnippetsforvscode.git"
     }
 }
